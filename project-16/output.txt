@@ -1,0 +1,55 @@
+% define the function
+f = @(x) x^3 - 10*x^2 + 5;
+
+% define the initial guesses for the root
+x0 = 12;
+x1 = 11;
+x2 = 10;
+
+% set the tolerance and maximum number of iterations
+tol = 1e-6;
+maxIter = 100;
+
+% define a variable to store the current iteration number
+iter = 0;
+
+% define a variable to store the root
+root = 0;
+
+% define a variable to store the relative error
+err = 1;
+
+% perform the Muller method
+while err > tol && iter < maxIter
+    % compute the coefficients of the quadratic polynomial
+    h1 = x1 - x0;
+    h2 = x2 - x1;
+    delta1 = (f(x1) - f(x0))/h1;
+    delta2 = (f(x2) - f(x1))/h2;
+    d = (delta2 - delta1)/(h2 + h1);
+
+    % compute the next approximation of the root
+    b = delta2 + h2*d;
+    D = sqrt(b^2 - 4*f(x2)*d);
+    if abs(b - D) < abs(b + D)
+        E = b + D;
+    else
+        E = b - D;
+    end
+    h = -2*f(x2)/E;
+    p = x2 + h;
+
+    % update the variables
+    root = p;
+    x0 = x1;
+    x1 = x2;
+    x2 = p;
+
+    % update the error and iteration count
+    err = abs(h/p);
+    iter = iter + 1;
+end
+
+% print the root and number of iterations
+fprintf('Root: %f\n', root);
+fprintf('Iterations: %d\n', iter);

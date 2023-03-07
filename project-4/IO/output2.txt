@@ -1,0 +1,15 @@
+C(75)
+O(125)
+M(100)
+P(50)
+X(70)
+U(50)
+
+sum of bandwidth: 470
+
+C(75)	Flat3(50)
+O(125)	Flat1(50)	Flat15(30)
+M(100)	Flat5(50)
+P(50)	Flat7(50)	Flat13(0)
+U(50)	Flat11(20)	Flat9(30)
+

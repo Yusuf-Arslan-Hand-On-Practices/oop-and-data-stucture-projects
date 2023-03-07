@@ -1,0 +1,24 @@
+Calender:
+[08:00] - breakfast
+[12:00] - lunch
+[20:00] - dinner
+Calender with study sessions:
+[08:00] - breakfast
+[10:00] - study
+[12:00] - lunch
+[16:00] - study
+[20:00] - dinner
+Calender with meetings:
+[08:00] - breakfast
+[09:00] - meeting
+[12:00] - lunch
+[13:00] - meeting
+[20:00] - dinner
+Complete calendar:
+[08:00] - breakfast
+[09:00] - meeting
+[10:00] - study
+[12:00] - lunch
+[13:00] - meeting
+[16:00] - study
+[20:00] - dinner

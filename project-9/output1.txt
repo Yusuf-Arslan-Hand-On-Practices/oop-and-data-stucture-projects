@@ -1,0 +1,42 @@
+Uni calendar: 
+[10:00] - meeting
+[11:00] - lecture
+[12:00] - class
+Sport calendar:
+[09:30] - walk
+[21:00] - walk
+Personal calendar: 
+[09:00] - breakfast
+[12:30] - lunch
+[16:00] - nap
+[23:00] - sleep
+Overall calendar: 
+[09:00] - breakfast
+[09:30] - walk
+[12:30] - lunch
+[16:00] - nap
+[21:00] - walk
+[23:00] - sleep
+Extended calendar: 
+[10:00] - meeting
+[11:00] - lecture
+[12:00] - class
+[15:00] - homework
+Personal calendar: 
+[09:00] - breakfast
+[09:30] - walk
+[12:30] - lunch
+[16:00] - nap
+[21:00] - walk
+[23:00] - sleep
+Extended calendar: 
+[09:00] - breakfast
+[09:30] - walk
+[10:00] - meeting
+[11:00] - lecture
+[12:00] - class
+[12:30] - lunch
+[15:00] - homework
+[16:00] - nap
+[21:00] - walk
+[23:00] - sleep

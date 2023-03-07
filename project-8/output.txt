@@ -1,0 +1,27 @@
+3D array which is randomly generated:
+
+19 39 -8 
+-10 6 -3 
+1 -5 31 
+
+16 11 18 
+40 40 28 
+24 34 11 
+
+16 37 30 
+-6 33 29 
+-2 28 32 
+
+
+Element in myArray[0][1][2] for student ID 63170017: -3
+The number of A: 7
+The result of subtraction: -10
+
+Elements of 1D array:
+19 39 -8 -10 6 -3 1 -5 31 16 11 18 40 40 28 24 34 11 16 37 30 -6 33 29 -2 28 32 
+
+Sorted array:
+-10 -8 -6 -5 -3 -2 1 6 11 11 16 16 18 19 24 28 28 29 30 31 32 33 34 37 39 40 40 
+
+Key to be searched=-10
+Element is found at index: 0

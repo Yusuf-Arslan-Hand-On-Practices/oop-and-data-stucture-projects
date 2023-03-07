@@ -1,0 +1,20 @@
+add_apartment	O	head	125
+add_apartment	C	before_O	75
+add_apartment	P	after_O	50
+add_apartment	M	before_P	100
+add_apartment	U	after_P	50
+add_apartment	X	before_U	70
+list_apartments
+find_sum_of_max_bandwidths
+add_flat	O	0	50	1
+add_flat	C	0	50	3
+add_flat	M	0	50	5
+add_flat	P	0	50	7
+add_flat	U	0	30	9
+add_flat	U	0	30	11
+add_flat	P	1	25	13
+add_flat	O	1	30	15
+list_apartments
+remove_apartment	C
+list_apartments
+find_sum_of_max_bandwidths
